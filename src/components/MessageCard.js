@@ -296,7 +296,9 @@ const MessageCard = ({ marginBottom }) => {
             }}
             whileTap={{ scale: 0.95 }}
           >
-            {currentMessage === messages.length - 1 ? "Finish" : "Next Message"}
+            {currentMessage === messages.length - 1
+              ? "Cái cuối nè"
+              : "Còn tiếp"}
             <HeartIcon
               animate={{
                 scale: [1, 1.3, 1],
